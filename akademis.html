@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<title>Akademis - iMaba</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+     background: #c0c0aa; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #c0c0aa, #1ce); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #c0c0aa, #1ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 75%;
+    background-position: center;
+    background-size: cover;
+}
+.jarak {
+line-height: 10px;
+}
+
+.flex-container {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+}
+.max-width{
+	max-width: 800px;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#top']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-98020765-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<body>
+	<!--NAVBAR-->
+	<nav class="navbar navbar-default navbar-fixed-top w3-card-2 w3-white">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand w3-text-red" style="font-weight:600" href="#">iMaba</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+ 
+        <li class="active"><a href="#">Akademis</a></li>
+        <li><a href="info.html">Info UI</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+	<!-- HEADER SECTION -->
+	<header class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="top">
+		<div class="w3-display-middle">
+			<center><h1 class="w3-jumbo w3-animate-opacity w3-wide" style="font-weight:600;">Akademis</h1></center>
+			<p class="w3-large w3-center" style="font-weight:600; font-size: 200%;">Penasaran kan selama di Fasilkom kuliah nya belajar apa aja? Berikut gambaran buat kamu yang masih penasaran!</p>
+		</div>
+	</header>
+	
+	<!--CONTENTS START HERE-->
+	
+	<!--Section 1: Belajar apa?-->
+	<div class="w3-container" style="padding-right:30px; padding-left:50px; padding-top:20px; padding-bottom: 20px">
+		<div class="w3-row-padding w3-content max-width">
+			<div class="w3-col m7" style="padding-top:80px; padding-right:50px;">
+				
+					<p class="w3-xlarge w3-text-blue w3-center"><strong>Belajar apa di Fasilkom??</strong></p>
+					<p class="w3-large">Disini, kamu akan belajar tentang teori-teori mengenai perancangan algoritma, serta aplikasinya ke dalam sistem di komputer. 
+					Lebih jelasnya, kamu akan belajar pemrograman di komputer atau biasanya yang disebut programming. 
+					Selain itu, akan ada beberapa hal-hal lain yang akan dipelajari selain programming. Seperti matematika, dan lain-lain. 
+					Simak penjelasan singkatnya dibawah ini!</p>	
+				
+			</div>
+			<div class="w3-col m5" style="padding-top:25px;">
+				<img src="meja-02.png" width="424" height="323" class="w3-image">
+			</div>
+		</div>
+	</div>
+	
+	<!--Section 2: Belajar apa (Lanjutan)?-->
+	<div class="w3-container w3-light-grey" style="padding: 20px 30px">
+		<div class="w3-row-padding w3-center max-width w3-content" style="margin-top:64px">
+			<div class="w3-col m4">
+				<i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center w3-text-red"></i>
+				<p class="w3-large w3-text-red"><strong>Programming</strong></p>
+				<p>programming, yaitu menyusun algoritma buat mengembangkan program/aplikasi/software. 
+				Program ini awalnya mungkin hanya dapat menjalani satu fungsi saja, 
+				namun kamu bakal belajar mengembangkan sebuah program agar dapat melakukan 
+				berbagai macam fungsi. </p>
+			</div>
+			
+			<div class="w3-col m4">
+				<i class="fa fa-calculator w3-margin-bottom w3-jumbo w3-center w3-text-red"></i>
+				<p class="w3-large w3-text-red"><strong>Matematika</strong></p>
+				<p>Karena untuk programming membutuhkan logika yang terlatih, 
+				di Fasilkom belajar juga beberapa matkul yang berkaitan dengan 
+				matematika untuk melatih logika.</p>
+			</div>
+			
+			<div class="w3-col m4">
+				<i class="fa fa-cogs w3-margin-bottom w3-jumbo w3-center w3-text-red"></i>
+				<p class="w3-large w3-text-red"><strong>Manajemen</strong></p>
+				<!--fix this!!!-->
+				<p>Selain itu, di Fasilkom kamu juga akan belajar manajemen,
+				 dan mengolah suatu ide bisnis untuk mengembangkan proyek.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--Section 3: Kurikulum-->
+	<div class="w3-container w3-white" style="padding-right:50px; padding-left:50px; padding-top:0px; padding-bottom: 30px">
+		<div class="w3-row-padding w3-center max-width w3-content" style="margin-top:64px">
+			<div class="w3-col m5">
+				<img src="buku-02.png" class="w3-image" style="width:300px; height:300px">
+			</div>
+			<div class="w3-col m7" style="padding-top:70px; padding-right:0px">
+				<p class="w3-xlarge w3-text-blue w3-right-align w3-center"><strong>Kurikulum</strong></p>
+				<p class="w3-medium w3-left-align">Sejak tahun 2016, kurikulum yang dipakai adalah kurikulum 2016. Kurikulum ini berbeda dengan 
+				kurikulum yang dipakai angkatan 2015 keatas. Untuk lebih jelasnya mengenai kurikulum dan mata kuliah, akan dijelaskan nanti 
+				setelah masuk. </p>
+				<p class="w3-medium w3-left-align">Nah, untuk gambaran awal, 
+				dibawah ini bisa disimak mata kuliah apa saja yang akan kamu pelajari selama semester 1 dan semester 2!</p>
+			</div>
+		</div>
+	</div>
+
+	<!--matkul ilkom dan si-->
+	<div class="w3-container w3-light-grey" style="padding-right:50px; padding-left:50px; padding-top:0px; padding-bottom: 20px">
+		<div class="w3-row-padding w3-center w3-content" style="margin-top:64px">
+			<div class="w3-col m12 w3-content">
+				<p class="w3-xlarge w3-text-red w3-padding"><strong>Mata Kuliah Ilmu Komputer</strong></p>
+				<div class="w3-justify" style="padding-bottom:50px">
+					<img src="coba-03.png" class="w3-image" style="padding-bottom:30px; display: block; margin: auto;">
+					
+					<p class="w3-small jarak"><strong>Keterangan warna:</strong></p>
+					<p class="w3-small jarak"><font color=#C17656><strong>merah:</strong></font> matkul wajib universitas</p>
+					<p class="w3-small jarak"><font color=#BAA843><strong>kuning:</strong></font> matkul wajib rumpun saintek</p>
+					<p class="w3-small jarak"><font color=#66A9A2><strong>biru:</strong></font> matkul wajib fakultas</p>
+					<p class="w3-small jarak"><font color=#8BA14F><strong>hijau:</strong></font> matkul wajib jurusan</p>
+				</div>
+				<hr class="w3-border-grey" style="margin:auto;width:100%">
+				<br>
+				<br>
+				<p class="w3-xlarge w3-text-red w3-padding"><strong>Mata Kuliah Sistem Informasi</strong></p>
+				<div class="w3-justify">
+					<img src="coba-04.png" class="w3-image" style="padding-bottom:30px">
+					
+					<p class="w3-small jarak"><strong>Keterangan warna:</strong></p>
+					<p class="w3-small jarak"><font color=#C17656><strong>merah:</strong></font> matkul wajib universitas</p>
+					<p class="w3-small jarak"><font color=#BAA843><strong>kuning:</strong></font> matkul wajib rumpun saintek</p>
+					<p class="w3-small jarak"><font color=#66A9A2><strong>biru:</strong></font> matkul wajib fakultas</p>
+					<p class="w3-small jarak"><font color=#8BA14F><strong>hijau:</strong></font> matkul wajib jurusan</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Section 4: Ilkom SI-->
+	<div class="w3-container w3-white" style="padding-right:50px; padding-left:50px; padding-top:20px; padding-bottom: 20px">
+		<div class="w3-row-padding w3-center" style="margin-top:64px">
+			<div class="w3-col m12">
+				<p class="w3-large w3-text-blue w3-justify"><strong>Bedanya SI dan Ilkom?</strong></p>
+				<p class="w3-medium w3-justify">Sebenarnya masih bingung nggak sih bedanya SI sama Ilkom? Buat yang masih bingung
+				, coba simak ulasan dibawah ini!</p>
+			</div>
+		</div>
+	</div>
+	<div class="w3-container w3-white" style="padding-right:30px; padding-left:50px; padding-top:20px; padding-bottom: 40px">
+		<div class="w3-row-padding w3-center" style="margin-top:20px">
+			<div class="w3-col m6 w3-hover-light-grey w3-leftbar w3-border-yellow">
+				<div style="padding: 20px;">
+					<i class="fa fa-cogs w3-margin-bottom w3-jumbo w3-center w3-text-orange"></i>
+					<p class="w3-large w3-center">Ilmu Komputer</p>
+					<p class="w3-justify"><hr class="w3-border-red" style="margin:auto;width:40%"></p>
+					<p class="w3-justify">Jurusan Ilmu Komputer itu berfokus pada ‘sains’-nya komputer.</p>
+					<p class="w3-justify">Yang dibahas mendalam adalah algoritma, konsep pemikiran sebuah aplikasi, teori jaringan, dll. 
+					Namun, juga dibahas praktik dengan berbagai Bahasa pemrograman.</p>
+					<p class="w3-text-grey w3-justify "><strong>prospek kerja :</strong></p>
+					<ul class="w3-ul w3-justify ">
+						<li>Game developer: mengembangkan perangkat lunak untuk multimedia game. </li> <!--fix this!!!-->
+						<li>Software engineer: mengembangkan perangkat lunak untuk berbagai kebutuhan
+						dengan menggunakan bahasa pemrograman seperti C++, Java, dll. Mobile Apps adalah sektor
+						yang sekarang paling dicari sekarang, dan umumnya dikembangkan dengan bahasa Java.</li>
+						<li>IT Developer: bekerja sebagai pengembang web dengan kemampuan pemrograman bahasa 
+						seperti HTML, CSS, Javascript, dll.</li>
+						<li>dan lain-lain....</li>
+					</ul>
+				</div>
+			</div>
+			<div class="w3-col m6 w3-hover-light-grey w3-leftbar w3-border-yellow">
+				<div style="padding: 20px;">
+					<i class="fa fa fa-line-chart w3-margin-bottom w3-jumbo w3-center w3-text-orange" ></i>
+					<p class="w3-large w3-center">Sistem Informasi</p>
+					<p><hr class="w3-border-red" style="margin:auto;width:40%"></p>
+					<p class="w3-justify">Jurusan sistem informasi ini menggabung konsep komputer dengan bisnis manajemen.</p>
+					<p class="w3-justify">Lulusan Sistem Informasi nanti akan bekerja 
+					sebagai ‘jembatan’ antara kebutuhan bisnis dengan aplikasi yang dibuat untuk perusahaan.</p>
+					<p class="w3-text-grey w3-justify"><strong>prospek kerja :</strong></p>
+					<ul class="w3-ul w3-justify">
+						<li>System Analyst: orang yang bertugas analisis tentang system operasi/informasi suatu perusahaan yang pakai system tsb.</li>
+						<li>IT manager: perusahaan yang kini menggunakan teknologi informasi di dalam pekerjaannya 
+						membutuhkan seorang IT manager untuk menangani system perusahaan tersebut. </li>
+						<li>Database Administrator: admin yang memegang dan mengelola seluruh data perusahaan</li>
+						<li>dan lain-lain....</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--Section 5: sedikit fakta-->
+	<div class="w3-container w3-light-grey flex-container" style="padding-right:50px; padding-left:50px; padding-top:0px; padding-bottom: 30px">
+		<div class="w3-row-padding w3-center w3-content" style="margin-top:64px">
+			<div class="w3-col m7" style="padding-top:80px;">
+				<p class="w3-xlarge w3-text-blue w3-right-align w3-center"><strong>Did you know?</strong></p>
+				<p class="w3-large w3-right-align w3-center">Skripsi di Fasilkom tidak menjadi syarat kelulusan.
+				Jadi, kamu boleh bikin atau tidak bikin skripsi loh di semester akhir nanti! Untuk detilnya,
+				 kamu akan diberikan penjelasannya nanti setelah masuk!</p>
+				
+			</div>
+			<div class="w3-col m5">
+				<img src="laptop-03.png" class="w3-image">
+			</div>
+		</div>
+	</div>
+	
+	<!--footer-->
+	<footer class="w3-container w3-white w3-center w3-card-2 w3-padding-16">
+		<a href="#top" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up w3-text-red w3-xlarge"></span>
+		</a>
+		<p>Created by Media BEM Fasilkom UI 2017</p>
+	</footer>
