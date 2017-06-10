@@ -23,6 +23,22 @@ body, html {height: 100%}
     background-position: center;
     background-size: cover;
 }
+.light-grey-opacity {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(241, 241, 241);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(241, 241, 241, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.bgForest {
+	    background-image: url('yaz-04.png');
+	    min-height: 75%;
+	    background-position: center;
+	    background-size: cover;
+	}
 .max-width{
 	max-width: 800px;
 }
@@ -92,6 +108,7 @@ function changeImage() {
  
         <li><a href="akademis.html">Akademis</a></li>
         <li class="active"><a href="#">Info UI</a></li>
+		<li><a href="lain2.html">Lain-lain</a></li>
       </ul>
     </div>
   </div>
@@ -198,47 +215,59 @@ function changeImage() {
 				<p class="w3-large w3-center w3-text-grey"><strong>Barel</strong></p>
 				<p>Seperti namanya, Barel atau "seberang rel" terletak di seberang rel.
 				 Disini adalah daerah kost-an yang jaraknya paling dekat dengan Fasilkom.
-				Butuh waktu sekitar 5-10 menit dengan jalan kaki untuk menuju Fasilkom. Harga kost di Barel berkisar antara 800.000 - 1.700.000</p>
+				Butuh waktu <strong>sekitar 10 menit</strong> dengan jalan kaki untuk menuju Fasilkom. </p>
+				<p><strong>Harga kost di Barel berkisar antara 700.000 - 1.700.000</strong></p>
 				
 			</div>
-			<div class="w3-col m4 w3-center w3-light-grey">
+			<div class="w3-col m4 w3-center light-grey-opacity">
 				
 				<img src = "rumah/rumah22-09.png" class = "w3-image w3-margin-bottom" style="width:150px; height:150px;">
 				<p class="w3-large w3-center"><strong>Kutek</strong></p>
 				<p>Kutek atau kukusan teknik letaknya di dekat Fakultas Teknik. Untuk menuju Fasilkom dari Kutek, kamu bisa menggunakan 
-				bikun, ojek, spekun, atau berjalan kaki. Waktu yang dibutuhkan untuk sampai di Fasilkom adalah sekitar 10 menit. Harga kost di kutek berkisar antara 800.000 - 1.500.000</p>
+				bikun, ojek, spekun, atau jalan kaki lewat Teksas. Waktu yang dibutuhkan untuk sampai di Fasilkom adalah <strong>sekitar 15 menit.</strong> </p>
+				<p>
+				<strong>Harga kost di kutek berkisar antara 500.000 - 1.500.000</strong></p>
 				
 			</div>
 			<div class="w3-col m4 w3-center">
 				
 				<img src = "rumah/rumah22-10.png" class = "w3-image w3-margin-bottom" style="width:150px; height:150px;">
 				<p class="w3-large w3-center w3-text-grey"><strong>Kukel</strong></p>
-				<p>Kukel atau kukusan kelurahan letaknya dekat dengan Vokasi. Dari sini, kamu bisa menggunakan bikun untuk menuju Fasilkom dan diperlukan waktu sekitar 15 menit.
-				 Harga kost-an yang ditawarkan di kukel berkisar antara 800.000 - 1.500.000</p>
+				<p>Kukel atau kukusan kelurahan letaknya dekat dengan Vokasi. Dari sini, kamu bisa menggunakan bikun atau motor 
+				untuk menuju Fasilkom dan diperlukan waktu <strong>sekitar 15-20 menit.</strong></p>
+				<p>
+				 <strong>Harga kost-an yang ditawarkan di kukel berkisar antara 500.000 - 1.500.000</strong></p>
 				
 			</div>
 		</div>
 	</div>
-	<div class="w3-container" style="padding-right:50px; padding-left:50px; padding-top:0px; padding-bottom: 10px">
+	<div class="bgForest w3-container" style="padding-right:50px; padding-left:50px; padding-top:0px; padding-bottom: 10px">
 		<div class="w3-row-padding ">
-			<div class="w3-col m4 w3-center w3-light-grey">
+			<div class="w3-col m4 w3-center light-grey-opacity">
 				<img src = "rumah/rumah22-11.png" class = "w3-image w3-margin-bottom" style="width:150px; height:150px;">
 				<p class="w3-large w3-center "><strong>Pocin</strong></p>
 				<p>Pocin atau Pondok Cinta letaknya dekat dengan stasiun Pondok Cina. Dari Pocin sudah cukup dekat dengan Fasilkom. Kamu bisa menggunakan bikun, spekun, atau 
-				berjalan kaki dan membutuhkan waktu kurang lebih 10 menit untuk menuju Fasilkom. Biaya per bulannya berkisar dari 800.000 - 1.500.000</p>
+				berjalan kaki dan membutuhkan waktu <strong>sekitar 10 menit</strong> untuk menuju Fasilkom. </p>
+				<p><strong>Biaya per bulannya berkisar dari 500.000 - 1.500.000</strong></p>
 				
 			</div>
 			<div class="w3-col m4 w3-center ">
 				<img src = "rumah/rumah22-12.png" class = "w3-image w3-margin-bottom" style="width:150px; height:150px;">
 				<p class="w3-large w3-center w3-text-grey"><strong>Asrama</strong></p>
 				<p>Buat kamu, terutama yang dari daerah, bisa juga tinggal di Asrama UI. Fasilitas yang disediakan pun cukup lengkap.
-				Untuk menuju Fasilkom dari asrama bisa menggunakan bikun dan membutuhkan waktu kira-kira 20 menit. Biaya per bulannya berkisar dari 200.000 - 400.000</p>
+				Untuk menuju Fasilkom dari asrama bisa menggunakan bikun atau motor dan membutuhkan waktu <strong>sekitar 30 menit.</strong> </p>
+				<p>
+				<strong>Biaya per bulannya berkisar dari 200.000 - 400.000</strong></p>
 			</div>
-			<div class="w3-col m4 w3-center w3-light-grey">
+			<div class="w3-col m4 w3-center light-grey-opacity">
 				<img src = "rumah/rumah22-13.png" class = "w3-image w3-margin-bottom" style="width:150px; height:150px;">
 				<p class="w3-large w3-center"><strong>Kober</strong></p>
-				<p>Kober letaknya adalah di Jalan Margonda. Buat kamu yang ingin tinggal di apartemen,tersedia beberapa apartemen disini seperti Margonda Residence atau Taman Melati.
-				Kamu bisa menggunakan bikun untuk menuju Fasilkom dan membutukan waktu kira-kira 15 menit. Biaya per bulannya berkisar dari 2.000.000 - 3.500.000</p>
+				<p>Kober letaknya adalah di Jalan Margonda. Selain kost, buat kamu yang ingin tinggal di apartemen,tersedia beberapa apartemen disini 
+				seperti Margonda Residence atau Taman Melati.
+				Kamu bisa menggunakan bikun untuk menuju Fasilkom dan membutukan waktu <strong>sekitar 15 menit.</strong> </p>
+				<p>
+				<strong>Biaya per bulannya berkisar dari 500.000 - 1.500.000, jika di 
+				apartemen mulai dari 2.000.000</strong></p>
 			</div>
 		</div>
 	</div>

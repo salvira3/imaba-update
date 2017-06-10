@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<title>Lain-lain - iMaba</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background: #00C9FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 75%;
+    background-position: center;
+    background-size: cover;
+}
+.max-width{
+	max-width: 800px;
+}
+.justify {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+</style>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to footer link
+  $("footer a[href='#top']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+
+
+</script>
+
+<body>
+<!--NAVBAR-->
+	<nav class="navbar navbar-default navbar-fixed-top w3-card-2 w3-white">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand w3-text-red" style="font-weight:600" href="#">iMaba</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+ 
+        <li><a href="akademis.html">Akademis</a></li>
+        <li><a href="info.html">Info UI</a></li>
+		<li class="active"><a href="#">Lain-lain</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+<!-- HEADER SECTION -->
+	<header class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="top">
+		<div class="w3-display-middle">
+			<center><h1 class="w3-jumbo w3-animate-opacity w3-wide" style="font-weight:600;">Lain-lain</h1></center>
+			<p class="w3-large w3-center" style="font-weight:600; font-size: 200%;">Di Fasilkom ada kegiatan apa aja ya? Yuk cek disini!</p>
+			
+		</div>
+	</header>
+	
+	
+	
+	<!--Badan otonom-->
+	<div class="w3-container" style="padding-right:50px; padding-left:50px; padding-top:20px; ">
+		<div class="w3-row-padding ">
+			<div class="col-sm-12 w3-center" style="padding:30px 20px;">
+				<p class="w3-xxlarge w3-text-red"><strong>Badan Otonom</strong></p>
+				<hr class="w3-border-red" style="margin:auto;width:40%">
+			</div>
+		</div>
+	</div>
+	<!--BEM-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			
+			<div class="w3-col m5 w3-center">
+				<img src="badan/logo-bem.png" width="200" height="200" class="w3-image  ">
+			</div>
+			<div class="w3-col m7" style="padding-top:20px;">
+				
+					<p class="w3-xlarge w3-text-blue"><strong><a href="http://bem.cs.ui.ac.id">BEM Fasilkom UI</a></strong></p>
+					<p class="w3-medium ">Badan Eksekutif Mahasiswa Fasilkom UI merupakan sebuah lembaga 
+					yang menaungi seluruh aktivitas kemahasiswaan, mewadahi minat dan bakat mahasiswa 
+					serta menyalurkan kreativitas mahasiswa Fasilkom UI untuk kebermanfaatan Fasilkom,
+					UI, dan Indonesia.</p>
+					<p class="w3-medium">BEM Fasilkom UI juga mewadahi minat bakatmu di bidang seni dan 
+					olahraga lewat UKF nih! Untuk detilnya, cek infonya di bem.cs.ui.ac.id dan 
+					follow Line @kontingencsui.</p>					
+				
+			</div>
+		</div>
+	</div>
+	<!--DPM-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+		<div class="w3-col m5 w3-center">
+				<img src="badan/logo-dpm.png" width="200" height="200" class="w3-image">
+			</div>
+			<div class="w3-col m7" style="padding-top:20px;">
+					<p class="w3-xlarge w3-text-red"><strong><a href="http://dpm.cs.ui.ac.id">DPM Fasilkom UI</a></strong></p>
+					<p class="w3-medium">Dewan Perwakilan Mahasiswa Fasilkom UI merupakan 
+					lembaga yang berperan sebagai lembaga legislatif dan memiliki fungsi yudikatif. 
+					Selain itu, DPM Fasilkom UI juga berperan untuk melakukan 
+					pengawasan dan evaluasi atas program kerja yang dilaksanakan oleh BEM dan BO.</p>
+					<p class="w3-medium">Dalam upaya pemenuhan fungsi aspirasi, DPM Fasilkom UI juga siap mendengarkan aspirasi IKM Fasilkom UI 
+					dan memberikan solusi yang sesuai.</p>		
+					
+								
+				
+			</div>
+			
+		</div>
+	</div>
+	<!--RISTEK-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 40px">
+		<div class="w3-padding w3-content max-width">
+		<div class="w3-col m5 w3-center">
+				<img src="badan/logo-ristek2.png" width="170" height="170" class="w3-image">
+			</div>
+			<div class="w3-col m7" >
+					<p class="w3-xlarge w3-text-blue"><strong><a href="http://ristek.cs.ui.ac.id">RISTEK</a></strong></p>
+					<p class="w3-medium">Riset dan Teknologi atau RISTEK Fasilkom UI adalah organisasi yang 
+					mewadahi minat dan bakat mahasiswa di bidang teknologi.</p>
+					<p>RISTEK terbagi dalam beberapa 
+					Special Interest Group (SIG) yaitu App Development, Data Science, 
+					Embedded System, Game Development, NetSOS, UI/UX, dan Web Development.</p>
+			</div>
+			
+		</div>
+	</div>
+	<!--FUKI-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			<div class="w3-col m5 w3-center">
+				<img src="badan/logo-fuki.png" width="200" height="200" class="w3-image">
+			</div>
+			<div class="w3-col m7" style="padding-top:20px;">
+				
+					<p class="w3-xlarge w3-text-red"><strong><a href="http://fuki.cs.ui.ac.id">FUKI</a></strong></p>
+					<p class="w3-medium">FUKI (Forum Ukhuwah dan Kajian Islam), adalah Lembaga Dakwah Fakultas yang bertempat di Fasilkom UI. 
+					Dengan modal <i>core competence</i> di bidang IT, FUKI mempunyai mimpi besar untuk menyiarkan kekerenan 
+					agama Islam ke seluruh dunia! Mimpi besar itu diawali dengan langkah yang cukup besar, 
+					menyiarkan Islam ke seluruh elemen Fasilkom.</p>
+								
+				
+			</div>
+			
+		</div>
+	</div>
+	<!--PO-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			<div class="w3-col m5 w3-center">
+				<img src="badan/logo-po.png" width="200" height="200" class="w3-image">
+			</div>
+			<div class="w3-col m7" style="padding-top:30px;">
+				
+					<p class="w3-xlarge w3-text-red"><strong><a href="http://po.cs.ui.ac.id">PO</a></strong></p>
+					<p class="w3-medium">PO atau Persekutuan Oikumene adalah perkumpulan 
+					mahasiswa Kristen Fakultas Ilmu Komputer. PO bersifat terbuka bagi 
+					seluruh mahasiswa Fasilkom dari berbagai aliran atau denominasi gereja.</p>
+								
+				
+			</div>
+			
+		</div>
+	</div>
+	<!--KUKSA-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			<div class="w3-col m5 w3-center">
+					<img src="badan/logo-kuksa.png" width="200" height="200" class="w3-image">
+			</div>
+			<div class="w3-col m7" style="padding-top:30px; padding-right:40px;">
+					<p class="w3-xlarge w3-text-indigo"><strong>KUKSA</strong></p>
+					<p class="w3-medium">KUKSA atau Keluarga Umat Katolik Sivitas Akademika merupakan perkumpulan mahasiswa Katolik Fakultas Ilmu Komputer.</p>	
+					
+								
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	<!--Asciipella-->
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			<div class="w3-col m5 w3-center">
+					<img src="badan/logo-ascii.png" width="200" height="200" class="w3-image">
+			</div>
+			<div class="w3-col m7" style="padding-top:40px;">
+			<p class="w3-xlarge w3-text-indigo"><strong>Asciipella</strong></p>
+					<p class="w3-medium">Asciipella merupakan komunitas mahasiswa Fasilkom yang memiliki minat
+					dan bakat di bidang tarik suara dan memainkan instrumen musik.</p>	
+					
+								
+				
+			</div>
+			
+		</div>
+	</div>
+	<!--Medsos-->
+	<div class="w3-container w3-light-grey" style="padding-right:50px; padding-left:50px; padding-top:20px; ">
+		<div class="w3-row-padding ">
+			<div class="col-sm-12 w3-center" style="padding:30px 20px;">
+				<p class="w3-xxlarge w3-text-red"><strong>Sosial Media</strong></p>
+				<hr class="w3-border-red" style="margin:auto;width:40%">
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-container w3-light-grey" style="padding-right:50px; padding-left:50px; padding-top:20px; ">
+		<div class="w3-row-padding ">
+			<div class="col-sm-3 w3-center" style="padding:20px 10px;">
+				<img src="socmed/bemfasilkom.png" class="w3-image">
+				<p><br><br></p>
+				<p class="w3-large"><strong>Facebook:</strong> <a href="http://facebook.com/bemfasilkomui">bemfasilkomui</a></p>
+				<p class="w3-large"><strong>Twitter:</strong> <a href="http://twitter.com/bemfasilkomui">@bemfasilkomui</a></p>
+				<p class="w3-large"><strong>Instagram:</strong> <a href="http://instagram.com/bemfasilkomui">@bemfasilkomui</a></p>
+				<p class="w3-large"><strong>Line:</strong> <a href="http://line.me/ti/p/~@BEMFasilkomUI">@BEMFasilkomUI</a></p>
+				<p class="w3-large"><strong>Line Adkesma:</strong> <a href="http://line.me/ti/p/~@lmc0672o">@lmc0672o</a></p>
+				<p class="w3-large"><strong>Line Minat Bakat:</strong> <a href="http://line.me/ti/p/~@kontingencsui">@kontingencsui</a></p>
+			</div>
+			<div class="col-sm-3 w3-center" style="padding:30px 20px;">
+				<img src="logo-pmb.png" class="w3-image w3-circle" width="150" height="150">
+				<p><br><br></p>
+				<p class="w3-large"><strong>Website:</strong> <a href="http://pmb.cs.ui.ac.id">pmb.cs.ui.ac.id</a></p>
+				<p class="w3-large"><strong>Twitter:</strong> <a href="http://twitter.com/pmbfasilkomui">@PMBFasilkomui</a></p>
+				<p class="w3-large"><strong>Instagram:</strong> <a href="http://instagram.com/pmbcsui2017">@pmbcsui2017</a></p>
+				<p class="w3-large"><strong>Line:</strong> <a href="http://line.me/ti/p/~@xyv7855o">@xyv7855o</a></p>
+			</div>
+			<div class="col-sm-3 w3-center" style="padding:30px 20px;">
+				<img src="socmed/fasilkom.png" class="w3-image" width="250">
+				<p><br><br></p>
+				<p class="w3-large"><strong>Website:</strong> <a href="http://cs.ui.ac.id">cs.ui.ac.id</a></p>
+				<p class="w3-large"><strong>Twitter:</strong> <a href="http://twitter.com/fasilkomui">@Fasilkomui</a></p>
+				
+			</div>
+			<div class="col-sm-3 w3-center" style="padding:30px 20px;">
+				<img src="socmed/bemui.png" class="w3-image w3-round-xlarge" width="150">
+				<p><br><br></p>
+				<p class="w3-large"><strong>Twitter:</strong> <a href="http://twitter.com/bemui_official">@bemui_official</a></p>
+				<p class="w3-large"><strong>Instagram:</strong> <a href="http://instagram.com/bemui_official">@bemui_official</a></p>
+				<p class="w3-large"><strong>Line@:</strong> <a href="http://line.me/ti/p/~@bemui">@bemui</a></p>
+			</div>
+		</div>
+	</div>
+				
+	<!--Addition-->
+	<div class="w3-container" style="padding-right:50px; padding-left:50px; padding-top:20px; ">
+		<div class="w3-row-padding ">
+			<div class="col-sm-12 w3-center" style="padding:30px 20px;">
+				<p class="w3-xxlarge w3-text-red"><strong>Boolean</strong></p>
+				<hr class="w3-border-red" style="margin:auto;width:40%">
+				
+			</div>
+		</div>
+	</div>
+	<div class="w3-container" style="padding-right:30px; padding-left:30px; padding-bottom: 20px">
+		<div class="w3-padding w3-content max-width">
+			
+			<div class="w3-col m5 w3-center" style="padding-right:30px">
+				<a href="https://issuu.com/bemfasilkomui/docs/boolean_16_web_only"><img src="16.png" width="400" class="w3-image "></a>
+			</div>
+			<div class="w3-col m7" style="padding-top:20px;">
+				<p class="w3-xlarge w3-text-grey">Mau mengetahui lebih banyak lagi tentang IT maupun kegiatan-kegiatan di Fasilkom? 
+				Caranya mudah, yuk baca Boolean! Seluruh edisi bisa diakses di <a href="http://bem.cs.ui.ac.id/boolean">bem.cs.ui.ac.id/boolean</a></p>
+				<p class="w3-xlarge w3-text-blue">Baca edisi terbaru Boolean 16 dengan tema 
+				IT is Wonderland dengan langsung klik gambar disamping!</p>
+								
+				
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<footer class="w3-container w3-white w3-center w3-card-2 w3-padding-16">
+		<a href="#top" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up w3-text-red w3-xlarge"></span>
+		</a>
+		<p>Created by Media BEM Fasilkom UI 2017</p>
+	</footer>
+
+
+	<script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-98020765-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+</body>
+</html>
